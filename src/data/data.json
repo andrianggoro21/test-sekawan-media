@@ -1,0 +1,129 @@
+{
+    "user": {
+      "name": "Jones Ferdinand",
+      "profile_image": "/assets/images/profile_image.jpg"
+    },
+    "overview": {
+      "unresolved": 60,
+      "overdue": 16,
+      "open": 43,
+      "on_hold": 64,
+      "trends": [
+        { "hour": 0, "value": 5 },
+        { "hour": 1, "value": 10 },
+        { "hour": 2, "value": 20 },
+        { "hour": 3, "value": 15 },
+        { "hour": 4, "value": 25 },
+        { "hour": 5, "value": 30 },
+        { "hour": 6, "value": 35 },
+        { "hour": 7, "value": 40 },
+        { "hour": 8, "value": 45 },
+        { "hour": 9, "value": 38 },
+        { "hour": 10, "value": 35 },
+        { "hour": 11, "value": 30 },
+        { "hour": 12, "value": 25 },
+        { "hour": 13, "value": 20 },
+        { "hour": 14, "value": 15 },
+        { "hour": 15, "value": 10 },
+        { "hour": 16, "value": 5 },
+        { "hour": 17, "value": 0 },
+        { "hour": 18, "value": 5 },
+        { "hour": 19, "value": 10 },
+        { "hour": 20, "value": 20 },
+        { "hour": 21, "value": 15 },
+        { "hour": 22, "value": 25 },
+        { "hour": 23, "value": 30 }
+      ],
+      "resolved": 449,
+      "received": 426,
+      "average_first_response_time": "33m",
+      "average_response_time": "3h 8m",
+      "resolution_within_sla": "94%",
+      "unresolved_tickets": [
+        {
+          "group": "Support",
+          "status": "Waiting on Feature Request",
+          "count": 4238
+        },
+        {
+          "group": "Support",
+          "status": "Awaiting Customer Response",
+          "count": 1005
+        },
+        { "group": "Support", "status": "Awaiting Developer Fix", "count": 914 },
+        { "group": "Support", "status": "Pending", "count": 281 }
+      ],
+      "tasks": [
+        { "task": "Finish ticket update", "priority": "urgent" },
+        { "task": "Create new ticket example", "priority": "new" },
+        { "task": "Update ticket report", "priority": "default" }
+      ]
+    },
+    "tickets": [
+      {
+        "id": "1",
+        "title": "Contact Email not Linked",
+        "customerName": "Tom Cruise",
+        "date": "May 26, 2019",
+        "priority": "high",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Adding Images to Featured Posts",
+        "customerName": "Matt Damon",
+        "date": "May 26, 2019",
+        "priority": "low",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "3",
+        "title": "When will I be charged this month?",
+        "customerName": "Robert Downey",
+        "date": "May 26, 2019",
+        "priority": "high",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Payment not going through",
+        "customerName": "Christian Bale",
+        "date": "May 25, 2019",
+        "priority": "normal",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Unable to add replies",
+        "customerName": "Henry Cavil",
+        "date": "May 25, 2019",
+        "priority": "high",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Downtime since last week",
+        "customerName": "Chris Evans",
+        "date": "May 25, 2019",
+        "priority": "normal",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "7",
+        "title": "Referral Bonus",
+        "customerName": "Sam Smith",
+        "date": "May 25, 2019",
+        "priority": "low",
+        "avatar": "/path/to/avatar1.jpg"
+      },
+      {
+        "id": "8",
+        "title": "How do I change my password?",
+        "customerName": "Steve Rogers",
+        "date": "May 24, 2019",
+        "priority": "normal",
+        "avatar": "/path/to/avatar1.jpg"
+      }
+    ]
+  }
+  
