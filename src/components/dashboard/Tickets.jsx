@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import PropTypes from 'prop-types';
+import { useState } from "react";
+import PropTypes from "prop-types";
 import {
   Box,
   Flex,
@@ -21,14 +21,14 @@ import {
   Select,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import TopBar from './topBar';
+import TopBar from "./topBar";
 
 const Tickets = ({ user, tickets, customers }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(8);
-  const [priorityFilter, setPriorityFilter] = useState('All');
-  const [sortOrder, setSortOrder] = useState('asc');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [priorityFilter, setPriorityFilter] = useState("All");
+  const [sortOrder, setSortOrder] = useState("asc");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const priorityColorScheme = (priority) => {
     switch (priority) {
@@ -44,8 +44,12 @@ const Tickets = ({ user, tickets, customers }) => {
   };
 
   const getCustomerName = (customerId) => {
-    const customer = customers.find((customer) => customer.customer_id === customerId);
-    return customer ? `${customer.first_name} ${customer.last_name}` : "Unknown Customer";
+    const customer = customers.find(
+      (customer) => customer.customer_id === customerId
+    );
+    return customer
+      ? `${customer.first_name} ${customer.last_name}`
+      : "Unknown Customer";
   };
 
   const handlePriorityFilterChange = (e) => {
@@ -57,15 +61,20 @@ const Tickets = ({ user, tickets, customers }) => {
     setSortOrder(e.target.value);
   };
 
-  const filteredTickets = tickets.filter(ticket =>
-    priorityFilter === 'All' || ticket.priority === priorityFilter
-  ).filter(ticket =>
-    ticket.subject.toLowerCase().includes(searchQuery) ||
-    getCustomerName(ticket.customer_id).toLowerCase().includes(searchQuery)
-  );
+  const filteredTickets = tickets
+    .filter(
+      (ticket) => priorityFilter === "All" || ticket.priority === priorityFilter
+    )
+    .filter(
+      (ticket) =>
+        ticket.subject.toLowerCase().includes(searchQuery) ||
+        getCustomerName(ticket.customer_id).toLowerCase().includes(searchQuery)
+    );
 
-  const sortedTickets = filteredTickets.sort((a, b) => 
-    sortOrder === 'asc' ? new Date(a.created_at) - new Date(b.created_at) : new Date(b.created_at) - new Date(a.created_at)
+  const sortedTickets = filteredTickets.sort((a, b) =>
+    sortOrder === "asc"
+      ? new Date(a.created_at) - new Date(b.created_at)
+      : new Date(b.created_at) - new Date(a.created_at)
   );
 
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -75,9 +84,8 @@ const Tickets = ({ user, tickets, customers }) => {
 
   const handleSearch = (query) => {
     setSearchQuery(query.toLowerCase());
-    setCurrentPage(1); 
+    setCurrentPage(1);
   };
-
 
   return (
     <Box p={6}>
@@ -85,7 +93,7 @@ const Tickets = ({ user, tickets, customers }) => {
         <Heading>Tickets</Heading>
         <TopBar onSearch={handleSearch} user={user} />
       </Flex>
-      <Flex mb="4" justifyContent='right' gap={4}>
+      <Flex mb="4" justifyContent="right" gap={4}>
         <Select
           width="auto"
           value={priorityFilter}
@@ -97,11 +105,7 @@ const Tickets = ({ user, tickets, customers }) => {
           <option value="Medium">Medium</option>
           <option value="Low">Low</option>
         </Select>
-        <Select
-          width="auto"
-          value={sortOrder}
-          onChange={handleSortOrderChange}
-        >
+        <Select width="auto" value={sortOrder} onChange={handleSortOrderChange}>
           <option value="asc">Sort by Date (Asc)</option>
           <option value="desc">Sort by Date (Desc)</option>
         </Select>
@@ -122,11 +126,15 @@ const Tickets = ({ user, tickets, customers }) => {
               <Tr key={ticket.ticket_id}>
                 <Td>
                   <HStack spacing={3}>
-                    <Avatar name={getCustomerName(ticket.customer_id)} src={ticket?.avatar} />
+                    <Avatar
+                      name={getCustomerName(ticket.customer_id)}
+                      src={ticket?.avatar}
+                    />
                     <VStack align="start" spacing={0}>
                       <Text fontWeight="bold">{ticket?.subject}</Text>
                       <Text fontSize="sm" color="gray.500">
-                        Updated {new Date(ticket?.updated_at).toLocaleDateString()}
+                        Updated{" "}
+                        {new Date(ticket?.updated_at).toLocaleDateString()}
                       </Text>
                     </VStack>
                   </HStack>
@@ -152,7 +160,7 @@ const Tickets = ({ user, tickets, customers }) => {
       </TableContainer>
       <Flex justifyContent="space-between" alignItems="center" mt="4">
         <Button
-          onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+          onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           isDisabled={currentPage === 1}
         >
           Previous
@@ -161,7 +169,9 @@ const Tickets = ({ user, tickets, customers }) => {
           Page {currentPage} of {totalPages}
         </Text>
         <Button
-          onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+          onClick={() =>
+            setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+          }
           isDisabled={currentPage === totalPages}
         >
           Next

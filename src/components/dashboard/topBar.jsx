@@ -1,5 +1,3 @@
-// topBar.jsx
-
 import { useState } from 'react';
 import {
   Box,
@@ -12,7 +10,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { SearchIcon, BellIcon } from "@chakra-ui/icons";
-import PropTypes from 'prop-types'; // Add PropTypes import
+import PropTypes from 'prop-types'; 
 
 const TopBar = ({ onSearch, user }) => {
   const [searchQuery, setSearchQuery] = useState('');

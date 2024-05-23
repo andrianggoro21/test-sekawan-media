@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {
+  Heading,
   Button,
   FormControl,
   FormLabel,
@@ -122,7 +123,15 @@ const TicketForm = () => {
   };
 
   return (
-    <Box>
+    <Box
+      maxW={"100vw"}
+      minH={"100vh"}
+      display={"flex"}
+      alignItems={"center"}
+      justifyContent={"center"}
+      flexDirection={"column"}
+    >
+        <Heading>Ticket Form</Heading>
       <VStack
         as="form"
         spacing={4}

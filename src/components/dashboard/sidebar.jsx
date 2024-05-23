@@ -13,7 +13,6 @@ import {
   DrawerCloseButton,
   DrawerBody,
   VStack,
-
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -36,7 +35,6 @@ const Sidebar = () => {
         icon={<HamburgerIcon />}
         onClick={onOpen}
         aria-label="Open Menu"
-       
       />
 
       {/* Sidebar for larger screens */}
@@ -141,4 +139,3 @@ NavItem.propTypes = {
 };
 
 export default Sidebar;
-

@@ -11,7 +11,7 @@ const FormLogin = ({ onLogin }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [showPassword, setShowPassword] = useState(false); // State untuk menunjukkan password
+  const [showPassword, setShowPassword] = useState(false); 
 
   const handleLogin = (e) => {
     e.preventDefault();
