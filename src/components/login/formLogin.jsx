@@ -124,7 +124,7 @@ const FormLogin = ({ onLogin }) => {
               mt={2}
               fontSize={"sm"}
             >
-              <Link color={"blue.700"}>log in as Guest</Link>
+              <Link color={"blue.700"} onClick={() => navigate("/ticket-form")}>log in as Guest</Link>
             </Box>
           </Box>
         </CardBody>

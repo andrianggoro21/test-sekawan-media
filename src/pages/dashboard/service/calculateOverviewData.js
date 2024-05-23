@@ -50,24 +50,6 @@ const calculateOverviewData = (data) => {
       }).length / resolvedTickets.length) * 100).toFixed(2)
     : '0.00';
 
-  // const trends = [];
-  // for (let i = 0; i < 24; i++) {
-  //   trends.push({
-  //     name: `${i}:00`,
-  //     today: 0,
-  //     yesterday: 0
-  //   });
-  // }
-
-  // data.Tickets.forEach(ticket => {
-  //   const createdAt = new Date(ticket.created_at);
-  //   const hour = createdAt.getHours();
-  //   if (createdAt.toDateString() === new Date().toDateString()) {
-  //     trends[hour].today += 1;
-  //   } else {
-  //     trends[hour].yesterday += 1;
-  //   }
-  // });
 
   const trends = [];
   const ticketCreationDates = {};
