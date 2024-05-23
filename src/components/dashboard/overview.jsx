@@ -23,8 +23,10 @@ import {
   Tooltip,
 } from "recharts";
 import { useState } from "react";
+import { useColorMode } from "@chakra-ui/react";
 
 const Overview = ({ user, data }) => {
+  const { colorMode } = useColorMode();
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = (query) => {
@@ -70,26 +72,26 @@ const Overview = ({ user, data }) => {
       </Flex>
 
       <SimpleGrid columns={{ base: 1, md: 4 }} spacing="6">
-        <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <StatLabel>Unresolved</StatLabel>
           <StatNumber>{unresolved}</StatNumber>
         </Stat>
-        <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <StatLabel>Overdue</StatLabel>
           <StatNumber>{overdue}</StatNumber>
         </Stat>
-        <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <StatLabel>Open</StatLabel>
           <StatNumber>{open}</StatNumber>
         </Stat>
-        <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <StatLabel>On hold</StatLabel>
           <StatNumber>{on_hold}</StatNumber>
         </Stat>
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing="6" mt="6">
-        <Box bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Box bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <Heading size="md" mb="4">
             Trends
           </Heading>
@@ -102,23 +104,23 @@ const Overview = ({ user, data }) => {
           </LineChart>
         </Box>
         <Box>
-          <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+          <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
             <StatLabel>Resolved</StatLabel>
             <StatNumber>{resolved}</StatNumber>
           </Stat>
-          <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+          <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
             <StatLabel>Received</StatLabel>
             <StatNumber>{received}</StatNumber>
           </Stat>
-          <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+          <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
             <StatLabel>Average First Response Time</StatLabel>
             <StatNumber>{avg_first_response_time}</StatNumber>
           </Stat>
-          <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+          <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
             <StatLabel>Average Response Time</StatLabel>
             <StatNumber>{avg_response_time}</StatNumber>
           </Stat>
-          <Stat bg="white" p="4" borderRadius="md" boxShadow="sm">
+          <Stat bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
             <StatLabel>Resolution within SLA</StatLabel>
             <StatNumber>{resolution_within_sla}</StatNumber>
           </Stat>
@@ -126,7 +128,7 @@ const Overview = ({ user, data }) => {
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing="6" mt="6">
-        <Box bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Box bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <Heading size="md" mb="4">
             Unresolved tickets
           </Heading>
@@ -140,7 +142,7 @@ const Overview = ({ user, data }) => {
             ))}
           </Stack>
         </Box>
-        <Box bg="white" p="4" borderRadius="md" boxShadow="sm">
+        <Box bgColor={colorMode === "light" ? "white" : "#0B2F37"} p="4" borderRadius="md" boxShadow="sm">
           <Heading size="md" mb="4">
             Tasks
           </Heading>
