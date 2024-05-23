@@ -1,0 +1,13 @@
+{
+    "welcome": "Welcome",
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "overview": "Overview",
+    "tickets": "Tickets",
+    "ideas": "Ideas",
+    "contacts": "Contacts",
+    "agents": "Agents",
+    "articles": "Articles",
+    "settings": "Settings",
+    "subscription": "Subscription"
+}
