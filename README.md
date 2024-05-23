@@ -1,8 +1,34 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Test Sekawan Media
 
-Currently, two official plugins are available:
+## Andri Anggoro
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Versi React
+
+React v18.3.1
+
+## Versi Node
+
+Node v18.17.1
+
+## Cara Memulai Proyek
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/andrianggoro21/test-sekawan-media.git
+
+2. **Masuk ke Direktori Proyek**
+    cd nama-repository
+
+3. **Install Dependencies**
+    npm install
+
+3. **Menjalankan Proyek**
+    npm run dev
+
+### Username dan Password untuk Login
+    Untuk mengakses aplikasi, gunakan informasi login berikut:
+
+    Username: alice.johnson@example.com
+    Password: adminpass123
