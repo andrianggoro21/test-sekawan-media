@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Overview from "../../components/dashboard/overview";
-import Tickets from "../../components/dashboard/tickets";
+import Tickets from "../../components/dashboard/Tickets";
 import data from "../../data/mockData.json";
 import calculateOverviewData from "./service/calculateOverviewData";
 
