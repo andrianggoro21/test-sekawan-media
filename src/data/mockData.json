@@ -1,0 +1,2054 @@
+{
+  "Customers": [
+    {
+      "customer_id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "created_at": "2024-01-01 10:00:00",
+      "avatar": "https://example.com/avatars/customer1.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 2,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "123-456-7891",
+      "address": "456 Elm St",
+      "created_at": "2024-01-02 11:00:00",
+      "avatar": "https://example.com/avatars/customer2.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 3,
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "email": "michael.brown@example.com",
+      "phone": "123-456-7892",
+      "address": "789 Oak St",
+      "created_at": "2024-01-03 12:00:00",
+      "avatar": "https://example.com/avatars/customer3.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 4,
+      "first_name": "Emily",
+      "last_name": "Wilson",
+      "email": "emily.wilson@example.com",
+      "phone": "123-456-7893",
+      "address": "101 Pine St",
+      "created_at": "2024-01-04 13:00:00",
+      "avatar": "https://example.com/avatars/customer4.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 5,
+      "first_name": "David",
+      "last_name": "Lee",
+      "email": "david.lee@example.com",
+      "phone": "123-456-7894",
+      "address": "111 Maple St",
+      "created_at": "2024-01-05 14:00:00",
+      "avatar": "https://example.com/avatars/customer5.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 6,
+      "first_name": "Sarah",
+      "last_name": "Garcia",
+      "email": "sarah.garcia@example.com",
+      "phone": "123-456-7895",
+      "address": "222 Birch St",
+      "created_at": "2024-01-06 15:00:00",
+      "avatar": "https://example.com/avatars/customer6.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 7,
+      "first_name": "Daniel",
+      "last_name": "Martinez",
+      "email": "daniel.martinez@example.com",
+      "phone": "123-456-7896",
+      "address": "333 Cedar St",
+      "created_at": "2024-01-07 16:00:00",
+      "avatar": "https://example.com/avatars/customer7.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 8,
+      "first_name": "Jessica",
+      "last_name": "Lopez",
+      "email": "jessica.lopez@example.com",
+      "phone": "123-456-7897",
+      "address": "444 Pine St",
+      "created_at": "2024-01-08 17:00:00",
+      "avatar": "https://example.com/avatars/customer8.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 9,
+      "first_name": "Kevin",
+      "last_name": "Hernandez",
+      "email": "kevin.hernandez@example.com",
+      "phone": "123-456-7898",
+      "address": "555 Elm St",
+      "created_at": "2024-01-09 18:00:00",
+      "avatar": "https://example.com/avatars/customer9.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 10,
+      "first_name": "Amanda",
+      "last_name": "King",
+      "email": "amanda.king@example.com",
+      "phone": "123-456-7899",
+      "address": "666 Oak St",
+      "created_at": "2024-01-10 19:00:00",
+      "avatar": "https://example.com/avatars/customer10.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 11,
+      "first_name": "Jason",
+      "last_name": "Young",
+      "email": "jason.young@example.com",
+      "phone": "123-456-7800",
+      "address": "777 Maple St",
+      "created_at": "2024-01-11 20:00:00",
+      "avatar": "https://example.com/avatars/customer11.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 12,
+      "first_name": "Megan",
+      "last_name": "Harris",
+      "email": "megan.harris@example.com",
+      "phone": "123-456-7801",
+      "address": "888 Birch St",
+      "created_at": "2024-01-12 21:00:00",
+      "avatar": "https://example.com/avatars/customer12.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 13,
+      "first_name": "Ethan",
+      "last_name": "Clark",
+      "email": "ethan.clark@example.com",
+      "phone": "123-456-7802",
+      "address": "999 Cedar St",
+      "created_at": "2024-01-13 22:00:00",
+      "avatar": "https://example.com/avatars/customer13.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 14,
+      "first_name": "Olivia",
+      "last_name": "Lewis",
+      "email": "olivia.lewis@example.com",
+      "phone": "123-456-7803",
+      "address": "1010 Pine St",
+      "created_at": "2024-01-14 23:00:00",
+      "avatar": "https://example.com/avatars/customer14.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 15,
+      "first_name": "Alexander",
+      "last_name": "Walker",
+      "email": "alexander.walker@example.com",
+      "phone": "123-456-7804",
+      "address": "1111 Elm St",
+      "created_at": "2024-01-15 00:00:00",
+      "avatar": "https://example.com/avatars/customer15.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 16,
+      "first_name": "Samantha",
+      "last_name": "Hall",
+      "email": "samantha.hall@example.com",
+      "phone": "123-456-7805",
+      "address": "1212 Oak St",
+      "created_at": "2024-01-16 01:00:00",
+      "avatar": "https://example.com/avatars/customer16.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 17,
+      "first_name": "William",
+      "last_name": "Allen",
+      "email": "william.allen@example.com",
+      "phone": "123-456-7806",
+      "address": "1313 Maple St",
+      "created_at": "2024-01-17 02:00:00",
+      "avatar": "https://example.com/avatars/customer17.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 18,
+      "first_name": "Sophia",
+      "last_name": "Young",
+      "email": "sophia.young@example.com",
+      "phone": "123-456-7807",
+      "address": "1414 Birch St",
+      "created_at": "2024-01-18 03:00:00",
+      "avatar": "https://example.com/avatars/customer18.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 19,
+      "first_name": "James",
+      "last_name": "Wright",
+      "email": "james.wright@example.com",
+      "phone": "123-456-7808",
+      "address": "1515 Cedar St",
+      "created_at": "2024-01-19 04:00:00",
+      "avatar": "https://example.com/avatars/customer19.png",
+      "password": "password123"
+    },
+    {
+      "customer_id": 20,
+      "first_name": "Isabella",
+      "last_name": "Lopez",
+      "email": "isabella.lopez@example.com",
+      "phone": "123-456-7809",
+      "address": "1616 Pine St",
+      "created_at": "2024-01-20 05:00:00",
+      "avatar": "https://example.com/avatars/customer20.png",
+      "password": "password123"
+    }
+  ],
+  "Tickets": [
+    {
+      "ticket_id": 1,
+      "customer_id": 1,
+      "subject": "Issue with product",
+      "description": "The product is not working as expected.",
+      "status": "Open",
+      "priority": "High",
+      "created_at": "2024-01-03 12:00:00",
+      "updated_at": "2024-01-03 12:00:00"
+    },
+    {
+      "ticket_id": 2,
+      "customer_id": 2,
+      "subject": "Billing question",
+      "description": "I have a question about my bill.",
+      "status": "Closed",
+      "priority": "Medium",
+      "created_at": "2024-01-04 13:00:00",
+      "updated_at": "2024-01-04 14:00:00"
+    },
+    {
+      "ticket_id": 3,
+      "customer_id": 3,
+      "subject": "Login issue",
+      "description": "I am unable to log in to my account.",
+      "status": "Open",
+      "priority": "Medium",
+      "created_at": "2024-01-05 14:00:00",
+      "updated_at": "2024-01-05 14:00:00"
+    },
+    {
+      "ticket_id": 4,
+      "customer_id": 4,
+      "subject": "Service complaint",
+      "description": "I am dissatisfied with the service provided.",
+      "status": "Open",
+      "priority": "Low",
+      "created_at": "2024-01-06 15:00:00",
+      "updated_at": "2024-01-06 15:00:00"
+    },
+    {
+      "ticket_id": 5,
+      "customer_id": 5,
+      "subject": "Product inquiry",
+      "description": "I would like more information about your products.",
+      "status": "Open",
+      "priority": "Medium",
+      "created_at": "2024-01-07 16:00:00",
+      "updated_at": "2024-01-07 16:00:00"
+    },
+    {
+      "ticket_id": 6,
+      "customer_id": 6,
+      "subject": "Cancellation request",
+      "description": "Please cancel my subscription.",
+      "status": "Closed",
+      "priority": "High",
+      "created_at": "2024-01-08 17:00:00",
+      "updated_at": "2024-01-08 18:00:00"
+    },
+    {
+      "ticket_id": 7,
+      "customer_id": 7,
+      "subject": "Technical issue",
+      "description": "I encountered a technical problem on your website.",
+      "status": "Open",
+      "priority": "High",
+      "created_at": "2024-01-09 18:00:00",
+      "updated_at": "2024-01-09 18:00:00"
+    },
+    {
+      "ticket_id": 8,
+      "customer_id": 8,
+      "subject": "Billing dispute",
+      "description": "There is an incorrect charge on my bill.",
+      "status": "Closed",
+      "priority": "Medium",
+      "created_at": "2024-01-10 19:00:00",
+      "updated_at": "2024-01-10 20:00:00"
+    },
+    {
+      "ticket_id": 9,
+      "customer_id": 9,
+      "subject": "Product return",
+      "description": "I want to return a product I purchased.",
+      "status": "Open",
+      "priority": "Medium",
+      "created_at": "2024-01-11 20:00:00",
+      "updated_at": "2024-01-11 20:00:00"
+    },
+    {
+      "ticket_id": 10,
+      "customer_id": 10,
+      "subject": "Order status",
+      "description": "I would like to check the status of my order.",
+      "status": "Open",
+      "priority": "Low",
+      "created_at": "2024-01-12 21:00:00",
+      "updated_at": "2024-01-12 21:00:00"
+    },
+    {
+      "ticket_id": 11,
+      "customer_id": 11,
+      "subject": "Service complaint",
+      "description": "I am unhappy with the service I received.",
+      "status": "Closed",
+      "priority": "High",
+      "created_at": "2024-01-13 22:00:00",
+      "updated_at": "2024-01-13 23:00:00"
+    },
+    {
+      "ticket_id": 12,
+      "customer_id": 12,
+      "subject": "Technical issue",
+      "description": "There is a bug in your mobile app.",
+      "status": "Open",
+      "priority": "High",
+      "created_at": "2024-01-14 23:00:00",
+      "updated_at": "2024-01-14 23:00:00"
+    },
+    {
+      "ticket_id": 13,
+      "customer_id": 13,
+      "subject": "Account problem",
+      "description": "I am having trouble accessing my account.",
+      "status": "Open",
+      "priority": "Medium",
+      "created_at": "2024-01-15 00:00:00",
+      "updated_at": "2024-01-15 00:00:00"
+    },
+    {
+      "ticket_id": 14,
+      "customer_id": 14,
+      "subject": "Billing question",
+      "description": "I don't understand a charge on my bill.",
+      "status": "Closed",
+      "priority": "Medium",
+      "created_at": "2024-01-16 01:00:00",
+      "updated_at": "2024-01-16 02:00:00"
+    },
+    {
+      "ticket_id": 15,
+      "customer_id": 15,
+      "subject": "Refund request",
+      "description": "I would like a refund for my recent purchase.",
+      "status": "Open",
+      "priority": "High",
+      "created_at": "2024-01-17 02:00:00",
+      "updated_at": "2024-01-17 02:00:00"
+    },
+    {
+      "ticket_id": 16,
+      "customer_id": 16,
+      "subject": "Technical problem",
+      "description": "I can't access the support page on your website.",
+      "status": "Open",
+      "priority": "Medium",
+      "created_at": "2024-01-18 03:00:00",
+      "updated_at": "2024-01-18 03:00:00"
+    },
+    {
+      "ticket_id": 17,
+      "customer_id": 17,
+      "subject": "Account recovery",
+      "description": "I forgot my account password.",
+      "status": "Open",
+      "priority": "Low",
+      "created_at": "2024-01-19 04:00:00",
+      "updated_at": "2024-01-19 04:00:00"
+    },
+    {
+      "ticket_id": 18,
+      "customer_id": 18,
+      "subject": "Service complaint",
+      "description": "Your service was not what I expected.",
+      "status": "Closed",
+      "priority": "Medium",
+      "created_at": "2024-01-20 05:00:00",
+      "updated_at": "2024-01-20 06:00:00"
+    },
+    {
+      "ticket_id": 19,
+      "customer_id": 19,
+      "subject": "Technical issue",
+      "description": "I encountered an error message on your website.",
+      "status": "Open",
+      "priority": "High",
+      "created_at": "2024-01-21 06:00:00",
+      "updated_at": "2024-01-21 06:00:00"
+    },
+    {
+      "ticket_id": 20,
+      "customer_id": 20,
+      "subject": "Billing question",
+      "description": "I need clarification on my billing statement.",
+      "status": "Closed",
+      "priority": "Low",
+      "created_at": "2024-01-22 07:00:00",
+      "updated_at": "2024-01-22 08:00:00"
+    }
+  ],
+  "Admins": [
+    {
+      "admin_id": 1,
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "123-456-7892",
+      "created_at": "2024-01-01 09:00:00",
+      "avatar": "https://example.com/avatars/admin1.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 2,
+      "first_name": "Bob",
+      "last_name": "Brown",
+      "email": "bob.brown@example.com",
+      "phone": "123-456-7893",
+      "created_at": "2024-01-02 09:30:00",
+      "avatar": "https://example.com/avatars/admin2.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 3,
+      "first_name": "Eva",
+      "last_name": "Davis",
+      "email": "eva.davis@example.com",
+      "phone": "123-456-7894",
+      "created_at": "2024-01-03 10:00:00",
+      "avatar": "https://example.com/avatars/admin3.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 4,
+      "first_name": "Jack",
+      "last_name": "Miller",
+      "email": "jack.miller@example.com",
+      "phone": "123-456-7895",
+      "created_at": "2024-01-04 11:00:00",
+      "avatar": "https://example.com/avatars/admin4.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 5,
+      "first_name": "Sophie",
+      "last_name": "Wilson",
+      "email": "sophie.wilson@example.com",
+      "phone": "123-456-7896",
+      "created_at": "2024-01-05 12:00:00",
+      "avatar": "https://example.com/avatars/admin5.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 6,
+      "first_name": "William",
+      "last_name": "Moore",
+      "email": "william.moore@example.com",
+      "phone": "123-456-7897",
+      "created_at": "2024-01-06 13:00:00",
+      "avatar": "https://example.com/avatars/admin6.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 7,
+      "first_name": "Lily",
+      "last_name": "Garcia",
+      "email": "lily.garcia@example.com",
+      "phone": "123-456-7898",
+      "created_at": "2024-01-07 14:00:00",
+      "avatar": "https://example.com/avatars/admin7.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 8,
+      "first_name": "Lucas",
+      "last_name": "Clark",
+      "email": "lucas.clark@example.com",
+      "phone": "123-456-7899",
+      "created_at": "2024-01-08 15:00:00",
+      "avatar": "https://example.com/avatars/admin8.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 9,
+      "first_name": "Grace",
+      "last_name": "Young",
+      "email": "grace.young@example.com",
+      "phone": "123-456-7800",
+      "created_at": "2024-01-09 16:00:00",
+      "avatar": "https://example.com/avatars/admin9.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 10,
+      "first_name": "Benjamin",
+      "last_name": "Hernandez",
+      "email": "benjamin.hernandez@example.com",
+      "phone": "123-456-7801",
+      "created_at": "2024-01-10 17:00:00",
+      "avatar": "https://example.com/avatars/admin10.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 11,
+      "first_name": "Mia",
+      "last_name": "King",
+      "email": "mia.king@example.com",
+      "phone": "123-456-7802",
+      "created_at": "2024-01-11 18:00:00",
+      "avatar": "https://example.com/avatars/admin11.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 12,
+      "first_name": "Logan",
+      "last_name": "Young",
+      "email": "logan.young@example.com",
+      "phone": "123-456-7803",
+      "created_at": "2024-01-12 19:00:00",
+      "avatar": "https://example.com/avatars/admin12.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 13,
+      "first_name": "Chloe",
+      "last_name": "Harris",
+      "email": "chloe.harris@example.com",
+      "phone": "123-456-7804",
+      "created_at": "2024-01-13 20:00:00",
+      "avatar": "https://example.com/avatars/admin13.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 14,
+      "first_name": "Elijah",
+      "last_name": "Clark",
+      "email": "elijah.clark@example.com",
+      "phone": "123-456-7805",
+      "created_at": "2024-01-14 21:00:00",
+      "avatar": "https://example.com/avatars/admin14.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 15,
+      "first_name": "Zoe",
+      "last_name": "Lewis",
+      "email": "zoe.lewis@example.com",
+      "phone": "123-456-7806",
+      "created_at": "2024-01-15 22:00:00",
+      "avatar": "https://example.com/avatars/admin15.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 16,
+      "first_name": "Jackson",
+      "last_name": "Walker",
+      "email": "jackson.walker@example.com",
+      "phone": "123-456-7807",
+      "created_at": "2024-01-16 23:00:00",
+      "avatar": "https://example.com/avatars/admin16.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 17,
+      "first_name": "Madison",
+      "last_name": "Hall",
+      "email": "madison.hall@example.com",
+      "phone": "123-456-7808",
+      "created_at": "2024-01-17 00:00:00",
+      "avatar": "https://example.com/avatars/admin17.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 18,
+      "first_name": "Ethan",
+      "last_name": "Allen",
+      "email": "ethan.allen@example.com",
+      "phone": "123-456-7809",
+      "created_at": "2024-01-18 01:00:00",
+      "avatar": "https://example.com/avatars/admin18.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 19,
+      "first_name": "Natalie",
+      "last_name": "Young",
+      "email": "natalie.young@example.com",
+      "phone": "123-456-7810",
+      "created_at": "2024-01-19 02:00:00",
+      "avatar": "https://example.com/avatars/admin19.png",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 20,
+      "first_name": "Leo",
+      "last_name": "Wright",
+      "email": "leo.wright@example.com",
+      "phone": "123-456-7811",
+      "created_at": "2024-01-20 03:00:00",
+      "avatar": "https://example.com/avatars/admin20.png",
+      "password": "adminpass123"
+    }
+  ],
+  "Ticket_Assignments": [
+    {
+      "assignment_id": 1,
+      "ticket_id": 1,
+      "admin_id": 1,
+      "assigned_at": "2024-01-03 12:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 2,
+      "ticket_id": 2,
+      "admin_id": 2,
+      "assigned_at": "2024-01-04 13:30:00",
+      "resolved_at": "2024-01-04 15:00:00"
+    },
+    {
+      "assignment_id": 3,
+      "ticket_id": 3,
+      "admin_id": 3,
+      "assigned_at": "2024-01-05 10:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 4,
+      "ticket_id": 4,
+      "admin_id": 4,
+      "assigned_at": "2024-01-06 11:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 5,
+      "ticket_id": 5,
+      "admin_id": 5,
+      "assigned_at": "2024-01-07 12:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 6,
+      "ticket_id": 6,
+      "admin_id": 6,
+      "assigned_at": "2024-01-08 13:30:00",
+      "resolved_at": "2024-01-08 15:00:00"
+    },
+    {
+      "assignment_id": 7,
+      "ticket_id": 7,
+      "admin_id": 7,
+      "assigned_at": "2024-01-09 14:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 8,
+      "ticket_id": 8,
+      "admin_id": 8,
+      "assigned_at": "2024-01-10 15:30:00",
+      "resolved_at": "2024-01-10 17:00:00"
+    },
+    {
+      "assignment_id": 9,
+      "ticket_id": 9,
+      "admin_id": 9,
+      "assigned_at": "2024-01-11 16:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 10,
+      "ticket_id": 10,
+      "admin_id": 10,
+      "assigned_at": "2024-01-12 17:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 11,
+      "ticket_id": 11,
+      "admin_id": 11,
+      "assigned_at": "2024-01-13 18:30:00",
+      "resolved_at": "2024-01-13 20:00:00"
+    },
+    {
+      "assignment_id": 12,
+      "ticket_id": 12,
+      "admin_id": 12,
+      "assigned_at": "2024-01-14 19:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 13,
+      "ticket_id": 13,
+      "admin_id": 13,
+      "assigned_at": "2024-01-15 20:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 14,
+      "ticket_id": 14,
+      "admin_id": 14,
+      "assigned_at": "2024-01-16 21:30:00",
+      "resolved_at": "2024-01-16 23:00:00"
+    },
+    {
+      "assignment_id": 15,
+      "ticket_id": 15,
+      "admin_id": 15,
+      "assigned_at": "2024-01-17 22:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 16,
+      "ticket_id": 16,
+      "admin_id": 16,
+      "assigned_at": "2024-01-18 23:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 17,
+      "ticket_id": 17,
+      "admin_id": 17,
+      "assigned_at": "2024-01-19 00:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 18,
+      "ticket_id": 18,
+      "admin_id": 18,
+      "assigned_at": "2024-01-20 01:30:00",
+      "resolved_at": "2024-01-20 03:00:00"
+    },
+    {
+      "assignment_id": 19,
+      "ticket_id": 19,
+      "admin_id": 19,
+      "assigned_at": "2024-01-21 02:30:00",
+      "resolved_at": null
+    },
+    {
+      "assignment_id": 20,
+      "ticket_id": 20,
+      "admin_id": 20,
+      "assigned_at": "2024-01-22 03:30:00",
+      "resolved_at": "2024-01-22 05:00:00"
+    }
+  ],
+  "Notes": [
+    {
+      "note_id": 1,
+      "ticket_id": 1,
+      "admin_id": 1,
+      "note": "Customer reported an issue with the product.",
+      "created_at": "2024-01-03 12:45:00"
+    },
+    {
+      "note_id": 2,
+      "ticket_id": 2,
+      "admin_id": 2,
+      "note": "Customer had a billing question.",
+      "created_at": "2024-01-04 13:45:00"
+    },
+    {
+      "note_id": 3,
+      "ticket_id": 3,
+      "admin_id": 3,
+      "note": "Customer reported a login issue.",
+      "created_at": "2024-01-05 14:45:00"
+    },
+    {
+      "note_id": 4,
+      "ticket_id": 4,
+      "admin_id": 4,
+      "note": "Customer complained about the service.",
+      "created_at": "2024-01-06 15:45:00"
+    },
+    {
+      "note_id": 5,
+      "ticket_id": 5,
+      "admin_id": 5,
+      "note": "Customer inquired about product details.",
+      "created_at": "2024-01-07 16:45:00"
+    },
+    {
+      "note_id": 6,
+      "ticket_id": 6,
+      "admin_id": 6,
+      "note": "Customer requested cancellation of subscription.",
+      "created_at": "2024-01-08 17:45:00"
+    },
+    {
+      "note_id": 7,
+      "ticket_id": 7,
+      "admin_id": 7,
+      "note": "Customer encountered a technical problem on the website.",
+      "created_at": "2024-01-09 18:45:00"
+    },
+    {
+      "note_id": 8,
+      "ticket_id": 8,
+      "admin_id": 8,
+      "note": "Customer disputed a charge on the billing statement.",
+      "created_at": "2024-01-10 19:45:00"
+    },
+    {
+      "note_id": 9,
+      "ticket_id": 9,
+      "admin_id": 9,
+      "note": "Customer requested a product return.",
+      "created_at": "2024-01-11 20:45:00"
+    },
+    {
+      "note_id": 10,
+      "ticket_id": 10,
+      "admin_id": 10,
+      "note": "Customer inquired about the order status.",
+      "created_at": "2024-01-12 21:45:00"
+    },
+    {
+      "note_id": 11,
+      "ticket_id": 11,
+      "admin_id": 11,
+      "note": "Customer complained about the service received.",
+      "created_at": "2024-01-13 22:45:00"
+    },
+    {
+      "note_id": 12,
+      "ticket_id": 12,
+      "admin_id": 12,
+      "note": "Customer reported a bug in the mobile app.",
+      "created_at": "2024-01-14 23:45:00"
+    },
+    {
+      "note_id": 13,
+      "ticket_id": 13,
+      "admin_id": 13,
+      "note": "Customer had trouble accessing the account.",
+      "created_at": "2024-01-15 00:45:00"
+    },
+    {
+      "note_id": 14,
+      "ticket_id": 14,
+      "admin_id": 14,
+      "note": "Customer had a question about a charge on the billing statement.",
+      "created_at": "2024-01-16 01:45:00"
+    },
+    {
+      "note_id": 15,
+      "ticket_id": 15,
+      "admin_id": 15,
+      "note": "Customer requested a refund for a recent purchase.",
+      "created_at": "2024-01-17 02:45:00"
+    },
+    {
+      "note_id": 16,
+      "ticket_id": 16,
+      "admin_id": 16,
+      "note": "Customer encountered an issue accessing the support page.",
+      "created_at": "2024-01-18 03:45:00"
+    },
+    {
+      "note_id": 17,
+      "ticket_id": 17,
+      "admin_id": 17,
+      "note": "Customer forgot the account password and requested recovery.",
+      "created_at": "2024-01-19 04:45:00"
+    },
+    {
+      "note_id": 18,
+      "ticket_id": 18,
+      "admin_id": 18,
+      "note": "Customer asked for assistance with an order issue.",
+      "created_at": "2024-01-20 05:45:00"
+    },
+    {
+      "note_id": 19,
+      "ticket_id": 19,
+      "admin_id": 19,
+      "note": "Customer had questions about a recent service outage.",
+      "created_at": "2024-01-21 06:45:00"
+    },
+    {
+      "note_id": 20,
+      "ticket_id": 20,
+      "admin_id": 20,
+      "note": "Customer requested assistance with a website login problem.",
+      "created_at": "2024-01-22 07:45:00"
+    }
+  ],
+  "Departments": [
+    {
+      "department_id": 1,
+      "name": "Support",
+      "description": "Customer support department"
+    },
+    {
+      "department_id": 2,
+      "name": "Billing",
+      "description": "Billing department"
+    },
+    {
+      "department_id": 3,
+      "name": "Technical",
+      "description": "Technical support department"
+    },
+    {
+      "department_id": 4,
+      "name": "Sales",
+      "description": "Sales department"
+    },
+    {
+      "department_id": 5,
+      "name": "Marketing",
+      "description": "Marketing department"
+    },
+    {
+      "department_id": 6,
+      "name": "HR",
+      "description": "Human resources department"
+    },
+    {
+      "department_id": 7,
+      "name": "IT",
+      "description": "Information technology department"
+    },
+    {
+      "department_id": 8,
+      "name": "Legal",
+      "description": "Legal department"
+    },
+    {
+      "department_id": 9,
+      "name": "Finance",
+      "description": "Finance department"
+    },
+    {
+      "department_id": 10,
+      "name": "Operations",
+      "description": "Operations department"
+    },
+    {
+      "department_id": 11,
+      "name": "R&D",
+      "description": "Research and development department"
+    },
+    {
+      "department_id": 12,
+      "name": "Quality Assurance",
+      "description": "Quality assurance department"
+    },
+    {
+      "department_id": 13,
+      "name": "Production",
+      "description": "Production department"
+    },
+    {
+      "department_id": 14,
+      "name": "Customer Success",
+      "description": "Customer success department"
+    },
+    {
+      "department_id": 15,
+      "name": "Supply Chain",
+      "description": "Supply chain department"
+    },
+    {
+      "department_id": 16,
+      "name": "Training",
+      "description": "Training department"
+    },
+    {
+      "department_id": 17,
+      "name": "Facilities",
+      "description": "Facilities department"
+    },
+    {
+      "department_id": 18,
+      "name": "Customer Support",
+      "description": "Customer support department"
+    },
+    {
+      "department_id": 19,
+      "name": "Customer Service",
+      "description": "Customer service department"
+    },
+    {
+      "department_id": 20,
+      "name": "Customer Care",
+      "description": "Customer care department"
+    }
+  ],
+  "Ticket_History": [
+    {
+      "history_id": 1,
+      "ticket_id": 1,
+      "status": "Open",
+      "updated_at": "2024-01-03 12:00:00",
+      "updated_by": 1
+    },
+    {
+      "history_id": 2,
+      "ticket_id": 2,
+      "status": "Closed",
+      "updated_at": "2024-01-04 14:00:00",
+      "updated_by": 2
+    },
+    {
+      "history_id": 3,
+      "ticket_id": 3,
+      "status": "Open",
+      "updated_at": "2024-01-05 15:00:00",
+      "updated_by": 3
+    },
+    {
+      "history_id": 4,
+      "ticket_id": 4,
+      "status": "Open",
+      "updated_at": "2024-01-06 16:00:00",
+      "updated_by": 4
+    },
+    {
+      "history_id": 5,
+      "ticket_id": 5,
+      "status": "Open",
+      "updated_at": "2024-01-07 17:00:00",
+      "updated_by": 5
+    },
+    {
+      "history_id": 6,
+      "ticket_id": 6,
+      "status": "Closed",
+      "updated_at": "2024-01-08 18:00:00",
+      "updated_by": 6
+    },
+    {
+      "history_id": 7,
+      "ticket_id": 7,
+      "status": "Open",
+      "updated_at": "2024-01-09 19:00:00",
+      "updated_by": 7
+    },
+    {
+      "history_id": 8,
+      "ticket_id": 8,
+      "status": "Closed",
+      "updated_at": "2024-01-10 20:00:00",
+      "updated_by": 8
+    },
+    {
+      "history_id": 9,
+      "ticket_id": 9,
+      "status": "Open",
+      "updated_at": "2024-01-11 21:00:00",
+      "updated_by": 9
+    },
+    {
+      "history_id": 10,
+      "ticket_id": 10,
+      "status": "Open",
+      "updated_at": "2024-01-12 22:00:00",
+      "updated_by": 10
+    },
+    {
+      "history_id": 11,
+      "ticket_id": 11,
+      "status": "Closed",
+      "updated_at": "2024-01-13 23:00:00",
+      "updated_by": 11
+    },
+    {
+      "history_id": 12,
+      "ticket_id": 12,
+      "status": "Open",
+      "updated_at": "2024-01-14 00:00:00",
+      "updated_by": 12
+    },
+    {
+      "history_id": 13,
+      "ticket_id": 13,
+      "status": "Open",
+      "updated_at": "2024-01-15 01:00:00",
+      "updated_by": 13
+    },
+    {
+      "history_id": 14,
+      "ticket_id": 14,
+      "status": "Closed",
+      "updated_at": "2024-01-16 02:00:00",
+      "updated_by": 14
+    },
+    {
+      "history_id": 15,
+      "ticket_id": 15,
+      "status": "Open",
+      "updated_at": "2024-01-17 03:00:00",
+      "updated_by": 15
+    },
+    {
+      "history_id": 16,
+      "ticket_id": 16,
+      "status": "Open",
+      "updated_at": "2024-01-18 04:00:00",
+      "updated_by": 16
+    },
+    {
+      "history_id": 17,
+      "ticket_id": 17,
+      "status": "Open",
+      "updated_at": "2024-01-19 05:00:00",
+      "updated_by": 17
+    },
+    {
+      "history_id": 18,
+      "ticket_id": 18,
+      "status": "Closed",
+      "updated_at": "2024-01-20 06:00:00",
+      "updated_by": 18
+    },
+    {
+      "history_id": 19,
+      "ticket_id": 19,
+      "status": "Open",
+      "updated_at": "2024-01-21 07:00:00",
+      "updated_by": 19
+    },
+    {
+      "history_id": 20,
+      "ticket_id": 20,
+      "status": "Closed",
+      "updated_at": "2024-01-22 08:00:00",
+      "updated_by": 20
+    }
+  ],
+  "Ticket_Types": [
+    {
+      "type_id": 1,
+      "name": "Technical Issue",
+      "description": "Issues related to technical problems"
+    },
+    {
+      "type_id": 2,
+      "name": "Billing Inquiry",
+      "description": "Questions about billing"
+    },
+    {
+      "type_id": 3,
+      "name": "Product Inquiry",
+      "description": "Inquiries about product details"
+    },
+    {
+      "type_id": 4,
+      "name": "Account Issue",
+      "description": "Issues related to account management"
+    },
+    {
+      "type_id": 5,
+      "name": "Service Request",
+      "description": "Requests for specific services"
+    },
+    {
+      "type_id": 6,
+      "name": "Feedback",
+      "description": "Customer feedback on products and services",
+      "created_at": "2024-01-01 10:00:00",
+      "updated_at": "2024-01-01 10:00:00"
+    },
+    {
+      "type_id": 7,
+      "name": "General Inquiry",
+      "description": "General inquiries and questions"
+    },
+    {
+      "type_id": 8,
+      "name": "Complaint",
+      "description": "Customer complaints and issues"
+    },
+    {
+      "type_id": 9,
+      "name": "Cancellation Request",
+      "description": "Requests for cancellation of services"
+    },
+    {
+      "type_id": 10,
+      "name": "Refund Request",
+      "description": "Requests for refunds on products or services"
+    },
+    {
+      "type_id": 11,
+      "name": "Order Status Inquiry",
+      "description": "Inquiries about the status of orders"
+    },
+    {
+      "type_id": 12,
+      "name": "Technical Support",
+      "description": "Requests for technical assistance"
+    },
+    {
+      "type_id": 13,
+      "name": "Service Outage",
+      "description": "Reports of service outages"
+    },
+    {
+      "type_id": 14,
+      "name": "Login Issue",
+      "description": "Issues related to login and access"
+    },
+    {
+      "type_id": 15,
+      "name": "Website Problem",
+      "description": "Problems with the company website"
+    },
+    {
+      "type_id": 16,
+      "name": "Bug Report",
+      "description": "Reports of bugs and errors"
+    },
+    {
+      "type_id": 17,
+      "name": "Feature Request",
+      "description": "Requests for new features"
+    },
+    {
+      "type_id": 18,
+      "name": "Account Access Issue",
+      "description": "Issues with accessing customer accounts"
+    },
+    {
+      "type_id": 19,
+      "name": "Charge Dispute",
+      "description": "Disputes over charges or billing errors"
+    },
+    {
+      "type_id": 20,
+      "name": "Product Return Request",
+      "description": "Requests for returning products"
+    }
+  ],
+  "Service_Level_Agreements": [
+    {
+      "sla_id": 1,
+      "name": "Standard SLA",
+      "response_time": 24,
+      "resolution_time": 72,
+      "priority": "Medium"
+    },
+    {
+      "sla_id": 2,
+      "name": "Priority SLA",
+      "response_time": 1,
+      "resolution_time": 24,
+      "priority": "High"
+    },
+    {
+      "sla_id": 3,
+      "name": "Urgent SLA",
+      "response_time": 0.5,
+      "resolution_time": 12,
+      "priority": "Critical"
+    },
+    {
+      "sla_id": 4,
+      "name": "Basic SLA",
+      "response_time": 48,
+      "resolution_time": 120,
+      "priority": "Low"
+    },
+    {
+      "sla_id": 5,
+      "name": "Extended SLA",
+      "response_time": 96,
+      "resolution_time": 240,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 6,
+      "name": "Custom SLA 1",
+      "response_time": 2,
+      "resolution_time": 48,
+      "priority": "High"
+    },
+    {
+      "sla_id": 7,
+      "name": "Custom SLA 2",
+      "response_time": 4,
+      "resolution_time": 96,
+      "priority": "Medium"
+    },
+    {
+      "sla_id": 8,
+      "name": "Custom SLA 3",
+      "response_time": 8,
+      "resolution_time": 144,
+      "priority": "Low"
+    },
+    {
+      "sla_id": 9,
+      "name": "Custom SLA 4",
+      "response_time": 12,
+      "resolution_time": 192,
+      "priority": "Low"
+    },
+    {
+      "sla_id": 10,
+      "name": "Custom SLA 5",
+      "response_time": 24,
+      "resolution_time": 288,
+      "priority": "Low"
+    },
+    {
+      "sla_id": 11,
+      "name": "Custom SLA 6",
+      "response_time": 36,
+      "resolution_time": 336,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 12,
+      "name": "Custom SLA 7",
+      "response_time": 48,
+      "resolution_time": 384,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 13,
+      "name": "Custom SLA 8",
+      "response_time": 72,
+      "resolution_time": 480,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 14,
+      "name": "Custom SLA 9",
+      "response_time": 96,
+      "resolution_time": 576,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 15,
+      "name": "Custom SLA 10",
+      "response_time": 120,
+      "resolution_time": 672,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 16,
+      "name": "Custom SLA 11",
+      "response_time": 144,
+      "resolution_time": 768,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 17,
+      "name": "Custom SLA 12",
+      "response_time": 168,
+      "resolution_time": 864,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 18,
+      "name": "Custom SLA 13",
+      "response_time": 192,
+      "resolution_time": 960,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 19,
+      "name": "Custom SLA 14",
+      "response_time": 216,
+      "resolution_time": 1056,
+      "priority": "Lowest"
+    },
+    {
+      "sla_id": 20,
+      "name": "Custom SLA 15",
+      "response_time": 240,
+      "resolution_time": 1152,
+      "priority": "Lowest"
+    }
+  ],
+  "Attachments": [
+    {
+      "attachment_id": 1,
+      "ticket_id": 1,
+      "file_path": "/attachments/issue1.png",
+      "uploaded_at": "2024-01-03 12:15:00"
+    },
+    {
+      "attachment_id": 2,
+      "ticket_id": 2,
+      "file_path": "/attachments/bill1.pdf",
+      "uploaded_at": "2024-01-04 13:15:00"
+    },
+    {
+      "attachment_id": 3,
+      "ticket_id": 3,
+      "file_path": "/attachments/error_log1.txt",
+      "uploaded_at": "2024-01-05 14:30:00"
+    },
+    {
+      "attachment_id": 4,
+      "ticket_id": 4,
+      "file_path": "/attachments/screenshot2.jpg",
+      "uploaded_at": "2024-01-06 15:45:00"
+    },
+    {
+      "attachment_id": 5,
+      "ticket_id": 5,
+      "file_path": "/attachments/config.xml",
+      "uploaded_at": "2024-01-07 16:50:00"
+    },
+    {
+      "attachment_id": 6,
+      "ticket_id": 6,
+      "file_path": "/attachments/contract1.pdf",
+      "uploaded_at": "2024-01-08 17:55:00"
+    },
+    {
+      "attachment_id": 7,
+      "ticket_id": 7,
+      "file_path": "/attachments/setup.exe",
+      "uploaded_at": "2024-01-09 18:00:00"
+    },
+    {
+      "attachment_id": 8,
+      "ticket_id": 8,
+      "file_path": "/attachments/user_guide.pdf",
+      "uploaded_at": "2024-01-10 19:10:00"
+    },
+    {
+      "attachment_id": 9,
+      "ticket_id": 9,
+      "file_path": "/attachments/log_report.csv",
+      "uploaded_at": "2024-01-11 20:20:00"
+    },
+    {
+      "attachment_id": 10,
+      "ticket_id": 10,
+      "file_path": "/attachments/license_key.txt",
+      "uploaded_at": "2024-01-12 21:30:00"
+    },
+    {
+      "attachment_id": 11,
+      "ticket_id": 11,
+      "file_path": "/attachments/issue2.png",
+      "uploaded_at": "2024-01-13 22:40:00"
+    },
+    {
+      "attachment_id": 12,
+      "ticket_id": 12,
+      "file_path": "/attachments/bill2.pdf",
+      "uploaded_at": "2024-01-14 23:50:00"
+    },
+    {
+      "attachment_id": 13,
+      "ticket_id": 13,
+      "file_path": "/attachments/error_log2.txt",
+      "uploaded_at": "2024-01-15 00:00:00"
+    },
+    {
+      "attachment_id": 14,
+      "ticket_id": 14,
+      "file_path": "/attachments/screenshot3.jpg",
+      "uploaded_at": "2024-01-16 01:10:00"
+    },
+    {
+      "attachment_id": 15,
+      "ticket_id": 15,
+      "file_path": "/attachments/config2.xml",
+      "uploaded_at": "2024-01-17 02:20:00"
+    },
+    {
+      "attachment_id": 16,
+      "ticket_id": 16,
+      "file_path": "/attachments/contract2.pdf",
+      "uploaded_at": "2024-01-18 03:30:00"
+    },
+    {
+      "attachment_id": 17,
+      "ticket_id": 17,
+      "file_path": "/attachments/setup2.exe",
+      "uploaded_at": "2024-01-19 04:40:00"
+    },
+    {
+      "attachment_id": 18,
+      "ticket_id": 18,
+      "file_path": "/attachments/user_guide2.pdf",
+      "uploaded_at": "2024-01-20 05:50:00"
+    },
+    {
+      "attachment_id": 19,
+      "ticket_id": 19,
+      "file_path": "/attachments/log_report2.csv",
+      "uploaded_at": "2024-01-21 06:00:00"
+    },
+    {
+      "attachment_id": 20,
+      "ticket_id": 20,
+      "file_path": "/attachments/license_key2.txt",
+      "uploaded_at": "2024-01-22 07:10:00"
+    }
+  ],
+  "Feedback": [
+    {
+      "feedback_id": 1,
+      "ticket_id": 2,
+      "customer_id": 2,
+      "rating": 4,
+      "comments": "Good service.",
+      "created_at": "2024-01-05 16:00:00"
+    },
+    {
+      "feedback_id": 2,
+      "ticket_id": 1,
+      "customer_id": 1,
+      "rating": 3,
+      "comments": "Average service.",
+      "created_at": "2024-01-06 17:00:00"
+    },
+    {
+      "feedback_id": 3,
+      "ticket_id": 3,
+      "customer_id": 3,
+      "rating": 5,
+      "comments": "Excellent support!",
+      "created_at": "2024-01-07 18:00:00"
+    },
+    {
+      "feedback_id": 4,
+      "ticket_id": 4,
+      "customer_id": 4,
+      "rating": 2,
+      "comments": "Not satisfied with the response time.",
+      "created_at": "2024-01-08 19:00:00"
+    },
+    {
+      "feedback_id": 5,
+      "ticket_id": 5,
+      "customer_id": 5,
+      "rating": 4,
+      "comments": "Good and efficient.",
+      "created_at": "2024-01-09 20:00:00"
+    },
+    {
+      "feedback_id": 6,
+      "ticket_id": 6,
+      "customer_id": 6,
+      "rating": 3,
+      "comments": "It was okay.",
+      "created_at": "2024-01-10 21:00:00"
+    },
+    {
+      "feedback_id": 7,
+      "ticket_id": 7,
+      "customer_id": 7,
+      "rating": 5,
+      "comments": "Very helpful!",
+      "created_at": "2024-01-11 22:00:00"
+    },
+    {
+      "feedback_id": 8,
+      "ticket_id": 8,
+      "customer_id": 8,
+      "rating": 2,
+      "comments": "Needs improvement.",
+      "created_at": "2024-01-12 23:00:00"
+    },
+    {
+      "feedback_id": 9,
+      "ticket_id": 9,
+      "customer_id": 9,
+      "rating": 4,
+      "comments": "Satisfied with the service.",
+      "created_at": "2024-01-13 00:00:00"
+    },
+    {
+      "feedback_id": 10,
+      "ticket_id": 10,
+      "customer_id": 10,
+      "rating": 3,
+      "comments": "Decent experience.",
+      "created_at": "2024-01-14 01:00:00"
+    },
+    {
+      "feedback_id": 11,
+      "ticket_id": 11,
+      "customer_id": 11,
+      "rating": 5,
+      "comments": "Superb service!",
+      "created_at": "2024-01-15 02:00:00"
+    },
+    {
+      "feedback_id": 12,
+      "ticket_id": 12,
+      "customer_id": 12,
+      "rating": 2,
+      "comments": "Disappointed with the outcome.",
+      "created_at": "2024-01-16 03:00:00"
+    },
+    {
+      "feedback_id": 13,
+      "ticket_id": 13,
+      "customer_id": 13,
+      "rating": 4,
+      "comments": "Good job.",
+      "created_at": "2024-01-17 04:00:00"
+    },
+    {
+      "feedback_id": 14,
+      "ticket_id": 14,
+      "customer_id": 14,
+      "rating": 3,
+      "comments": "Could be better.",
+      "created_at": "2024-01-18 05:00:00"
+    },
+    {
+      "feedback_id": 15,
+      "ticket_id": 15,
+      "customer_id": 15,
+      "rating": 5,
+      "comments": "Outstanding support!",
+      "created_at": "2024-01-19 06:00:00"
+    },
+    {
+      "feedback_id": 16,
+      "ticket_id": 16,
+      "customer_id": 16,
+      "rating": 2,
+      "comments": "Not happy with the service.",
+      "created_at": "2024-01-20 07:00:00"
+    },
+    {
+      "feedback_id": 17,
+      "ticket_id": 17,
+      "customer_id": 17,
+      "rating": 4,
+      "comments": "Efficient and effective.",
+      "created_at": "2024-01-21 08:00:00"
+    },
+    {
+      "feedback_id": 18,
+      "ticket_id": 18,
+      "customer_id": 18,
+      "rating": 3,
+      "comments": "It was alright.",
+      "created_at": "2024-01-22 09:00:00"
+    },
+    {
+      "feedback_id": 19,
+      "ticket_id": 19,
+      "customer_id": 19,
+      "rating": 5,
+      "comments": "Great service!",
+      "created_at": "2024-01-23 10:00:00"
+    },
+    {
+      "feedback_id": 20,
+      "ticket_id": 20,
+      "customer_id": 20,
+      "rating": 2,
+      "comments": "Could be more prompt.",
+      "created_at": "2024-01-24 11:00:00"
+    }
+  ],
+  "Roles": [
+    {
+      "role_id": 1,
+      "name": "Admin",
+      "description": "Administrator with full access"
+    },
+    {
+      "role_id": 2,
+      "name": "Customer",
+      "description": "Customer with access to support"
+    }
+  ],
+  "Notifications": [
+    {
+      "notification_id": 1,
+      "user_id": 1,
+      "message": "New ticket assigned.",
+      "status": "Unread",
+      "created_at": "2024-01-03 12:35:00"
+    },
+    {
+      "notification_id": 2,
+      "user_id": 2,
+      "message": "Ticket closed.",
+      "status": "Read",
+      "created_at": "2024-01-04 14:10:00"
+    },
+    {
+      "notification_id": 3,
+      "user_id": 3,
+      "message": "New message received.",
+      "status": "Unread",
+      "created_at": "2024-01-05 15:15:00"
+    },
+    {
+      "notification_id": 4,
+      "user_id": 4,
+      "message": "Password reset requested.",
+      "status": "Read",
+      "created_at": "2024-01-06 16:20:00"
+    },
+    {
+      "notification_id": 5,
+      "user_id": 5,
+      "message": "Profile updated.",
+      "status": "Unread",
+      "created_at": "2024-01-07 17:25:00"
+    },
+    {
+      "notification_id": 6,
+      "user_id": 6,
+      "message": "New ticket created.",
+      "status": "Read",
+      "created_at": "2024-01-08 18:30:00"
+    },
+    {
+      "notification_id": 7,
+      "user_id": 7,
+      "message": "Billing issue resolved.",
+      "status": "Unread",
+      "created_at": "2024-01-09 19:35:00"
+    },
+    {
+      "notification_id": 8,
+      "user_id": 8,
+      "message": "New comment on your ticket.",
+      "status": "Read",
+      "created_at": "2024-01-10 20:40:00"
+    },
+    {
+      "notification_id": 9,
+      "user_id": 9,
+      "message": "System maintenance scheduled.",
+      "status": "Unread",
+      "created_at": "2024-01-11 21:45:00"
+    },
+    {
+      "notification_id": 10,
+      "user_id": 10,
+      "message": "Subscription renewed.",
+      "status": "Read",
+      "created_at": "2024-01-12 22:50:00"
+    },
+    {
+      "notification_id": 11,
+      "user_id": 11,
+      "message": "Ticket reopened.",
+      "status": "Unread",
+      "created_at": "2024-01-13 23:55:00"
+    },
+    {
+      "notification_id": 12,
+      "user_id": 12,
+      "message": "New attachment added.",
+      "status": "Read",
+      "created_at": "2024-01-14 00:00:00"
+    },
+    {
+      "notification_id": 13,
+      "user_id": 13,
+      "message": "Ticket escalated.",
+      "status": "Unread",
+      "created_at": "2024-01-15 01:05:00"
+    },
+    {
+      "notification_id": 14,
+      "user_id": 14,
+      "message": "New feedback received.",
+      "status": "Read",
+      "created_at": "2024-01-16 02:10:00"
+    },
+    {
+      "notification_id": 15,
+      "user_id": 15,
+      "message": "Account activated.",
+      "status": "Unread",
+      "created_at": "2024-01-17 03:15:00"
+    },
+    {
+      "notification_id": 16,
+      "user_id": 16,
+      "message": "Email verified.",
+      "status": "Read",
+      "created_at": "2024-01-18 04:20:00"
+    },
+    {
+      "notification_id": 17,
+      "user_id": 17,
+      "message": "Two-factor authentication enabled.",
+      "status": "Unread",
+      "created_at": "2024-01-19 05:25:00"
+    },
+    {
+      "notification_id": 18,
+      "user_id": 18,
+      "message": "New security alert.",
+      "status": "Read",
+      "created_at": "2024-01-20 06:30:00"
+    },
+    {
+      "notification_id": 19,
+      "user_id": 19,
+      "message": "Password changed.",
+      "status": "Unread",
+      "created_at": "2024-01-21 07:35:00"
+    },
+    {
+      "notification_id": 20,
+      "user_id": 20,
+      "message": "New login from unrecognized device.",
+      "status": "Read",
+      "created_at": "2024-01-22 08:40:00"
+    }
+  ],
+  "Categories": [
+    {
+      "category_id": 1,
+      "name": "Technical Support",
+      "description": "Technical related issues",
+      "created_at": "2024-01-01 08:00:00",
+      "updated_at": "2024-01-01 08:00:00"
+    },
+    {
+      "category_id": 2,
+      "name": "Billing",
+      "description": "Billing related issues",
+      "created_at": "2024-01-02 11:00:00",
+      "updated_at": "2024-01-02 11:00:00"
+    },
+    {
+      "category_id": 3,
+      "name": "General",
+      "description": "General inquiries",
+      "created_at": "2024-01-03 12:00:00",
+      "updated_at": "2024-01-03 12:00:00"
+    },
+    {
+      "category_id": 4,
+      "name": "Sales",
+      "description": "Sales related questions",
+      "created_at": "2024-01-04 13:00:00",
+      "updated_at": "2024-01-04 13:00:00"
+    },
+    {
+      "category_id": 5,
+      "name": "Feedback",
+      "description": "Customer feedback",
+      "created_at": "2024-01-05 14:00:00",
+      "updated_at": "2024-01-05 14:00:00"
+    },
+    {
+      "category_id": 6,
+      "name": "Account Management",
+      "description": "Issues related to account",
+      "created_at": "2024-01-06 15:00:00",
+      "updated_at": "2024-01-06 15:00:00"
+    },
+    {
+      "category_id": 7,
+      "name": "Shipping",
+      "description": "Shipping inquiries",
+      "created_at": "2024-01-07 16:00:00",
+      "updated_at": "2024-01-07 16:00:00"
+    },
+    {
+      "category_id": 8,
+      "name": "Returns",
+      "description": "Returns and refunds",
+      "created_at": "2024-01-08 17:00:00",
+      "updated_at": "2024-01-08 17:00:00"
+    },
+    {
+      "category_id": 9,
+      "name": "Product Inquiry",
+      "description": "Questions about products",
+      "created_at": "2024-01-09 18:00:00",
+      "updated_at": "2024-01-09 18:00:00"
+    },
+    {
+      "category_id": 10,
+      "name": "Partnership",
+      "description": "Partnership inquiries",
+      "created_at": "2024-01-10 19:00:00",
+      "updated_at": "2024-01-10 19:00:00"
+    },
+    {
+      "category_id": 11,
+      "name": "Marketing",
+      "description": "Marketing related issues",
+      "created_at": "2024-01-11 20:00:00",
+      "updated_at": "2024-01-11 20:00:00"
+    },
+    {
+      "category_id": 12,
+      "name": "Legal",
+      "description": "Legal inquiries",
+      "created_at": "2024-01-12 21:00:00",
+      "updated_at": "2024-01-12 21:00:00"
+    },
+    {
+      "category_id": 13,
+      "name": "HR",
+      "description": "Human resources related issues",
+      "created_at": "2024-01-13 22:00:00",
+      "updated_at": "2024-01-13 22:00:00"
+    },
+    {
+      "category_id": 14,
+      "name": "IT Support",
+      "description": "Internal IT support",
+      "created_at": "2024-01-14 23:00:00",
+      "updated_at": "2024-01-14 23:00:00"
+    },
+    {
+      "category_id": 15,
+      "name": "Maintenance",
+      "description": "Maintenance related inquiries",
+      "created_at": "2024-01-15 00:00:00",
+      "updated_at": "2024-01-15 00:00:00"
+    },
+    {
+      "category_id": 16,
+      "name": "Complaints",
+      "description": "Customer complaints",
+      "created_at": "2024-01-16 01:00:00",
+      "updated_at": "2024-01-16 01:00:00"
+    },
+    {
+      "category_id": 17,
+      "name": "Suggestions",
+      "description": "Customer suggestions",
+      "created_at": "2024-01-17 02:00:00",
+      "updated_at": "2024-01-17 02:00:00"
+    },
+    {
+      "category_id": 18,
+      "name": "Promotions",
+      "description": "Promotional inquiries",
+      "created_at": "2024-01-18 03:00:00",
+      "updated_at": "2024-01-18 03:00:00"
+    },
+    {
+      "category_id": 19,
+      "name": "Security",
+      "description": "Security related issues",
+      "created_at": "2024-01-19 04:00:00",
+      "updated_at": "2024-01-19 04:00:00"
+    },
+    {
+      "category_id": 20,
+      "name": "Others",
+      "description": "Other inquiries",
+      "created_at": "2024-01-20 05:00:00",
+      "updated_at": "2024-01-20 05:00:00"
+    }
+  ],
+  "FAQs": [
+    {
+      "faq_id": 11,
+      "question": "What is the return policy?",
+      "answer": "You can return items within 30 days of purchase.",
+      "created_at": "2024-01-11 20:00:00",
+      "updated_at": "2024-01-11 20:00:00"
+    },
+    {
+      "faq_id": 12,
+      "question": "How do I contact customer service?",
+      "answer": "Customer service can be contacted via phone, email, or chat.",
+      "created_at": "2024-01-12 21:00:00",
+      "updated_at": "2024-01-12 21:00:00"
+    },
+    {
+      "faq_id": 13,
+      "question": "Can I change my shipping address?",
+      "answer": "Yes, you can change it before the order is shipped.",
+      "created_at": "2024-01-13 22:00:00",
+      "updated_at": "2024-01-13 22:00:00"
+    },
+    {
+      "faq_id": 14,
+      "question": "How do I use my reward points?",
+      "answer": "Reward points can be applied at checkout.",
+      "created_at": "2024-01-14 23:00:00",
+      "updated_at": "2024-01-14 23:00:00"
+    },
+    {
+      "faq_id": 15,
+      "question": "How do I cancel my subscription?",
+      "answer": "Subscriptions can be canceled in the 'Subscription' section.",
+      "created_at": "2024-01-15 00:00:00",
+      "updated_at": "2024-01-15 00:00:00"
+    },
+    {
+      "faq_id": 16,
+      "question": "Why is my payment declined?",
+      "answer": "Ensure your payment details are correct and funds are sufficient.",
+      "created_at": "2024-01-16 01:00:00",
+      "updated_at": "2024-01-16 01:00:00"
+    },
+    {
+      "faq_id": 17,
+      "question": "What are the delivery options?",
+      "answer": "Standard and express delivery options are available.",
+      "created_at": "2024-01-17 02:00:00",
+      "updated_at": "2024-01-17 02:00:00"
+    },
+    {
+      "faq_id": 18,
+      "question": "Can I update my email address?",
+      "answer": "Yes, you can update it in the 'Account Settings' section.",
+      "created_at": "2024-01-18 03:00:00",
+      "updated_at": "2024-01-18 03:00:00"
+    },
+    {
+      "faq_id": 19,
+      "question": "What should I do if I receive a damaged item?",
+      "answer": "Contact support immediately to report the issue.",
+      "created_at": "2024-01-19 04:00:00",
+      "updated_at": "2024-01-19 04:00:00"
+    },
+    {
+      "faq_id": 20,
+      "question": "How can I track my support ticket?",
+      "answer": "You can track your support tickets in the 'Support' section.",
+      "created_at": "2024-01-20 05:00:00",
+      "updated_at": "2024-01-20 05:00:00"
+    }
+  ]
+}
